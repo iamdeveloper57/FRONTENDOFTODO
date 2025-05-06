@@ -9,7 +9,7 @@ const logoutBtn = document.getElementById("logout");
 
 // API and token
 // const API = "http://localhost:4000/api";
-const API = process.env.API_URL || CONFIG.API_URL;
+const API = window.CONFIG.API_URL;
 const token = localStorage.getItem("token");
 
 // ========== AUTH SECTION ==========
