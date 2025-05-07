@@ -9,7 +9,7 @@ const logoutBtn = document.getElementById("logout");
 
 // API and token
 // const API = "http://localhost:4000/api";
-const API = "https://backend-2-mz8c.onrender.com/api"
+const API = "https://backendoftodo-n5tc.onrender.com/api"
 const token = localStorage.getItem("token");
 
 // ========== AUTH SECTION ==========
